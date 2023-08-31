@@ -9,4 +9,4 @@ import Collectives from './models/Collectives';
 // Body: http://localhost:333/users (identificar um recurso)
 
 
-app.listen(3333, () => console.log("Server is running!"));
+app.listen(3333, () => console.log("Server is running! PORT", 3333));
